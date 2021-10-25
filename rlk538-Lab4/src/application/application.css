@@ -1,0 +1,66 @@
+
+.background {
+	-fx-background-color:white;
+}
+
+.main-button{
+	-fx-font-size:30px;
+	-fx-border-radius:10px;
+	-fx-background-radius:10px;
+}
+
+.button {
+	-fx-font-family:"Agency FB";
+	-fx-text-alignment:center;
+	-fx-font-weight:bold;
+	-fx-text-fill:white;
+	-fx-background-color:black;	
+}
+
+.small-button {
+	-fx-font-size:20px;
+}
+
+.header-text {
+	-fx-font-family:"Monospace";
+	-fx-underline:true;
+}
+
+.cw-text {
+	-fx-font-size:18px;
+	-fx-font-family:"Monospace";
+}
+
+.cw-tile {
+	-fx-border-color:black;
+}
+
+.header-label-black {
+	-fx-background-color:black;
+	-fx-border-color:black;
+	-fx-text-fill:white;
+	-fx-font-family:"Monospace";
+	-fx-font-size:36px;
+	/*-fx-font-style:narrow;*/
+}
+
+.ad-border {
+	-fx-border-color:black;
+	-fx-border-width:3px;
+}
+
+.ad-header {
+	-fx-font-family:"Monospace";
+	-fx-font-size:26px;
+	/*-fx-font-style:bold;*/
+}
+
+.ad-body {
+	-fx-font-family:"Monospace";
+	-fx-font-size:20px;
+}
+
+.ad-footer {
+	-fx-font-family:"Monospace";
+	-fx-font-size:11px;
+}

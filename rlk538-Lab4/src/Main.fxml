@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="mainPane" maxHeight="600.0" maxWidth="800.0" stylesheets="@application/application.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <VBox alignment="TOP_CENTER" maxHeight="600.0" maxWidth="800.0" prefHeight="600.0" prefWidth="800.0" styleClass="background">
+         <children>
+            <ImageView fitHeight="225.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@banner.png" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#toClassified" text="Classifieds">
+               <VBox.margin>
+                  <Insets top="90.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="30.0" left="104.0" right="104.0" top="30.0" />
+               </padding>
+               <styleClass>
+                  <String fx:value="main-button" />
+                  <String fx:value="button" />
+               </styleClass>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#toCrossword" text="Crossword Puzzle">
+               <VBox.margin>
+                  <Insets top="55.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="30.0" left="68.0" right="68.0" top="30.0" />
+               </padding>
+               <styleClass>
+                  <String fx:value="main-button" />
+                  <String fx:value="button" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
