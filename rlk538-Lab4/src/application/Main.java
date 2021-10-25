@@ -15,6 +15,7 @@ import javafx.fxml.FXMLLoader;
  * @author Richard Maldonado rlk538
  *
  */
+//This is added
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
